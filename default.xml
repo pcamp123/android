@@ -225,11 +225,11 @@
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="cr" revision="jb2" />
   <project path="frameworks/base" name="android_frameworks_base" remote="cr" revision="jb2" />
-  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cm" revision="cm-10.1" />
+  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="frameworks/compile/linkloader" name="android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="cmdev" revision="cm-10.1-linaro" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="frameworks/ex" name="android_frameworks_ex" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
@@ -352,7 +352,7 @@
   <project path="sdk" name="android_sdk" remote="cm" revision="cm-10.1" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.1" />
   <project path="system/core" name="android_system_core" remote="cr" revision="jb2" />
-  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-10.1" />
+  <project path="system/extras" name="android_system_extras" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.1" />
   <project path="system/security" name="android_system_security" remote="cmdev" revision="cm-10.1-linaro" />
