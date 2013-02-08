@@ -34,7 +34,7 @@
   <project path="bionic" name="android_bionic" remote="cr" revision="jb2" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
-  <project path="dalvik" name="android_dalvik" remote="cm" revision="cm-10.1" />
+  <project path="dalvik" name="android_dalvik" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="development" name="android_development" remote="cr" revision="jb2" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="cr" revision="jb2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
@@ -179,11 +179,9 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="android_external_openssh" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/openssl" name="android_external_openssl" remote="cmdev" revision="cm-10.1-linaro" />
-  <project path="external/openvpn" name="android_external_openvpn" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/oprofile" name="android_external_oprofile" remote="cr" revision="jb2" />
   <project path="external/ping" name="android_external_ping" remote="cmdev" revision="cm-10.1-linaro" />
-  <project path="external/ping6" name="android_external_ping6" remote="cmdev" revision="cm-10.1-linaro" />
-  <project path="external/powertop" name="android_external_powertop" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
@@ -244,7 +242,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cr" revision="jb2" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.1" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="cmdev" revision="cm-10.1-linaro" />
-  <project path="frameworks/support" name="android_frameworks_support" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="gdk" name="platform/gdk" />
