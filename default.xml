@@ -22,9 +22,6 @@
   <remote  name="kejar31"
            fetch="git://github.com/kejar31/" />
 
-  <remote  name="aokp"
-           fetch="git://github.com/aokp/" />
-
   <default revision="refs/tags/android-4.2.1_r1.2"
            remote="aosp"
            sync-j="4" />
@@ -182,7 +179,7 @@
   <project path="external/openssl" name="external_openssl" remote="ub" revision="jb-mr1" />
   <project path="external/oprofile" name="android_external_oprofile" remote="cr" revision="jb2" />
   <project path="external/ping" name="external_ping" remote="ub" revision="jb-mr1" />
-  <project path="external/ping6" name="platform/external/ping6" />
+  <project path="external/ping6" name="android_external_ping6" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
@@ -228,7 +225,7 @@
   <project path="frameworks/compile/linkloader" name="android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="ub" revision="jb-mr1" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="frameworks/ex" name="frameworks_ex" remote="ub" revision="jb-mr1" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
@@ -243,7 +240,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cr" revision="jb2" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.1" />
   <project path="frameworks/rs" name="frameworks_rs" remote="ub" revision="jb-mr1" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="ub" revision="jb-mr1" />
   <project path="gdk" name="platform/gdk" />
