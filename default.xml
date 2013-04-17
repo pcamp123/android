@@ -46,7 +46,39 @@
   <project path="development" name="android_development" remote="cr" revision="jb2" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="cr" revision="jb2" />
+  <project path="device/htc/evita" name="android_device_sony_pepper" remote="nc" revision="jb2" />
   <project path="device/htc/ville" name="android_device_htc_ville" remote="cr" revision="jb2" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="cr" revision="jb2" />
+  <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="cr" revision="jb2" />
+  <project path="device/samsung/celox-common" name="android_device_samsung_celox-common" remote="cr" revision="jb2" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="cr" revision="jb2" />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="cr" revision="jb2" />
+  <project path="device/samsung/d2cri" name="android_device_samsung_d2cri" remote="cr" revision="jb2" />
+  <project path="device/samsung/d2mtr" name="android_device_samsung_d2mtr" remote="cr" revision="jb2" />
+  <project path="device/samsung/d2spr" name="android_device_samsung_d2spr" remote="cr" revision="jb2" />
+  <project path="device/samsung/d2tmo" name="android_device_samsung_d2tmo" remote="cr" revision="jb2" />
+  <project path="device/samsung/d2usc" name="android_device_samsung_d2usc" remote="cr" revision="jb2" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="cr" revision="jb2" />
+  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="cr" revision="jb2" />
+  <project path="device/samsung/hercules" name="android_device_samsung_hercules" remote="cr" revision="jb2" />
+  <project path="device/samsung/infuse4g" name="android_device_samsung_infuse4g" remote="cr" revision="jb2" />
+  <project path="device/samsung/i605" name="android_device_samsung_i605" remote="cr" revision="jb2" />
+  <project path="device/samsung/l900" name="android_device_samsung_l900" remote="cr" revision="jb2" />
+  <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="cr" revision="jb2" />
+  <project path="device/samsung/i9300" name="android_device_samsung_i9300" remote="cr" revision="jb2" />
+  <project path="device/samsung/i9305" name="android_device_samsung_i9305" remote="cr" revision="jb2" />
+  <project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="cr" revision="jb2" />
+  <project path="device/samsung/manta" name="android_device_samsung_manta" remote="cr" revision="jb2" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="cr" revision="jb2" />
+  <project path="device/samsung/msm8660-common" name="android_device_samsung_msm8660-common" remote="cr" revision="jb2" />
+  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="cr" revision="jb2" />
+  <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="cr" revision="jb2" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/quincy-common" name="android_device_samsung_quincy-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/quincytmo" name="android_device_samsung_quincytmo" remote="cr" revision="jb2" />
+  <project path="device/samsung/skyrocket" name="android_device_samsung_skyrocket" remote="cr" revision="jb2" />
+>>>>>>> 6f23659a56f85735a79eb779024b8268520d8d28
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="cr" revision="jb2" />
   <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="cr" revision="jb2" />
@@ -275,7 +307,9 @@
   <project path="packages/apps/Camera" name="Root-Box/packages_apps_Camera" remote="gh" revision="jb-mr1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cr" revision="jb2" />
+  <project path="packages/apps/DashClock" name="XYAOSP/packages_apps_DashClock" remote="gh" revision="jb4.2" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cr" revision="jb2" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" revision="cm-10.1" />
