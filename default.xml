@@ -271,7 +271,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="CarbonDev/android_frameworks_av" remote="cr" revision="jb2" />
-  <project path="frameworks/base" name="CarbonDev/android_frameworks_base" remote="cr" revision="jb2" />
+  <project path="frameworks/base" name="pcamp123/android_frameworks_base" remote="gh" revision="jb2" />
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -438,7 +438,7 @@
   <project path="vendor/htc/m7" name="htc-msm8960/android_vendor_htc_m7" remote="gh" revision="cm-10.1" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.1" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-10.1" />
-  <project path="vendor/carbon" name="CarbonDev/android_vendor_carbon" remote="cr" revision="jb2" />
+  <project path="vendor/carbon" name="pcamp123/android_vendor_carbon" remote="gh" revision="jb2" />
   <project path="vendor/lge" name="CarbonDev/android_vendor_lge" remote="cr" revision="jb2" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.1" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-10.1" />
