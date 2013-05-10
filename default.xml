@@ -41,7 +41,7 @@
   <project path="build" name="CarbonDev/android_build" remote="cr" revision="jb2">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CarbonDev/android" remote="cr" revision="jb2" />
+  <project path="android" name="pcamp123/android" remote="gh" revision="jb2" />
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="CarbonDev/android_bionic" remote="cr" revision="jb2" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
